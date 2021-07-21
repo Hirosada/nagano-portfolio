@@ -1,0 +1,38 @@
+header {
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:100;
+    background-color: #778899;
+    opacity: 0.5;
+}
+a:hover {
+    color: greenyellow;
+}
+.nav-link {
+    color: #fff;
+    font-family: 'HiraKakuPro-W6';
+}
+.nav-sub {
+    justify-content: space-evenly ! important;
+    padding-top: 20px;
+}
+
+.slider{
+    width: 100%;
+}
+.slider .ele{
+    height: 100%;
+    width: 100%;
+    border: solid 1px black;
+    background-color: lightgreen;
+    text-align: center;
+}
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+.img {
+    width: 100%;
+    height: auto;
+}
